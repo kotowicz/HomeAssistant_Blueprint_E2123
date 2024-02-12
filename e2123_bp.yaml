@@ -44,12 +44,12 @@ blueprint:
     volume_steps:
       name: Volume number of steps
       description: Controls the volume scale. The default of 25 is the same scale as the Sonos app.
-      default: 0.02
+      default: 0.01
       selector:
         number:
-          min: 0.01
+          min: 0.005
           max: 0.1
-          step: 0.01
+          step: 0.005
           unit_of_measurement: "Num"
           mode: slider
 
